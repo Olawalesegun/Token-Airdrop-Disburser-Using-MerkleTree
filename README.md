@@ -1,13 +1,15 @@
-# Sample Hardhat Project
+# Merkle Airdrop Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Welcome to the Merkle Airdrop Project! This guide will walk you through setting up and running the `merkle.js` script, deploying the `MerkleAirdrop` smart contract, and generating proofs for claiming airdrops. We'll also cover some assumptions and limitations of the implementation.
 
-Try running some of the following tasks:
+## Setting Up and Running `merkle.js`
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+To begin, ensure you have Node.js (version 18.x or later) installed on your system. This project relies on several Node.js modules, so you'll need to install them first.
+
+1.  **Clone the Repository**
+    
+    Start by cloning the project repository to your local machine:
+    
+  ```
+	  git clone https://github.com/Olawalesegun/Token-Airdrop-Disburser-Using-MerkleTree
+	  cd contracts/merkle-airdrop

@@ -9,10 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "hardhat": "^2.22.10"
+    "ethers": "^5.7.2",
+    "hardhat": "^2.3.3"
   },
   "dependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "csv-parser": "^3.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "csv-parser": "^3.0.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.4.0",
+    "path": "^0.12.7"
   }
 }

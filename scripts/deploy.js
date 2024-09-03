@@ -17,6 +17,7 @@ fsReader.ReadStream(DATA).pipe(csv())
 	nodes.push(hashedNodes);
 	console.log(nodes);
 
+});
 
 // try {
 // 	const readData = fsReader(DATA, 'utf8');

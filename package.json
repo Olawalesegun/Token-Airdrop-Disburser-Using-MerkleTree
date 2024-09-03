@@ -12,6 +12,7 @@
     "hardhat": "^2.22.10"
   },
   "dependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^5.0.0"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "csv-parser": "^3.0.0"
   }
 }
